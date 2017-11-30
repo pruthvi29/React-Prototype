@@ -1,0 +1,62 @@
+{
+  "name": "jmf-dealer-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^1.23.1",
+    "@blueprintjs/table": "^1.23.0",
+    "@types/jest": "^20.0.4",
+    "@types/node": "^8.0.14",
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-select": "^1.0.51",
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "passport": "^0.4.0",
+    "passport-saml": "^0.15.0",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-input-autosize": "^1.1.4",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts-ts": "2.4.0",
+    "react-scroll": "^1.5.4",
+    "react-tag-autocomplete": "^5.4.1",
+    "typescript": "^2.4.0",
+    "web-request": "^1.0.7"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.9.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "jest": "^20.0.4",
+    "react-addons-test-utils": "^15.6.0",
+    "react-test-renderer": "^15.6.1",
+    "sinon": "^3.2.1",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**/*.tsx",
+      "!**/src/**/index.tsx",
+      "!**/node_modules/**"
+    ],
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  }
+}

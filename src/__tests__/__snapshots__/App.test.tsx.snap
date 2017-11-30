@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App Component 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="headWrapper"
+  >
+    <div>
+      <nav
+        className="pt-navbar"
+      >
+        <div
+          className="pt-navbar-group pt-align-left"
+        >
+          <img
+            alt="logo"
+            className="App-logo"
+            src="set_logo.png"
+          />
+        </div>
+      </nav>
+    </div>
+    <div
+      className="MainNav"
+    >
+      <div
+        className="pt-button-group pt-large pt-fill"
+      >
+        <a
+          className="pt-button pt-intent-primary pt-active no-radius"
+          role="button"
+        >
+          Home
+        </a>
+        <a
+          className="pt-button pt-intent-primary"
+          role="button"
+        >
+          Applications
+        </a>
+        <a
+          className="pt-button pt-intent-primary"
+          role="button"
+        >
+          Reports
+        </a>
+        <a
+          className="pt-button pt-intent-primary"
+          role="button"
+        >
+          Resource Library
+        </a>
+        <a
+          className="pt-button pt-intent-primary"
+          role="button"
+        >
+          Forms
+        </a>
+        <a
+          className="pt-button pt-intent-primary"
+          role="button"
+        >
+          News
+        </a>
+        <a
+          className="pt-button pt-intent-primary"
+          role="button"
+        >
+          Directories
+        </a>
+        <a
+          className="pt-button pt-intent-primary no-radius"
+          role="button"
+        >
+          Expand / Collapse
+          <span
+            className="pt-icon-standard pt-icon-caret-up pt-align-right"
+          />
+          <span
+            className="pt-icon-standard pt-icon-caret-down pt-align-right"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      className="SecNav"
+    >
+      <div
+        className="pt-button-group pt-fill SecMenu"
+      >
+        <button
+          className="pt-button pt-align-left no-radius pt-active"
+        >
+          Dashboard
+          <span
+            className="pt-icon-standard pt-icon-caret-down"
+          />
+        </button>
+        <button
+          className="pt-button pt-align-left"
+        >
+          Inventory
+        </button>
+        <button
+          className="pt-button pt-align-left"
+        >
+          Trade History
+        </button>
+        <button
+          className="pt-button pt-align-left"
+        >
+          Vehicle Estimator
+        </button>
+        <button
+          className="pt-button pt-fixed pt-align-right"
+        />
+        <button
+          className="pt-button pt-fixed pt-align-right no-radius"
+        >
+          Locator History
+        </button>
+      </div>
+      <div
+        className="SecNavMob"
+      >
+        <h4>
+          <span
+            className="pt-icon-standard pt-icon-menu hamMenu"
+          />
+          Dashboard
+          <div
+            className="vertical-menu"
+          >
+            <p>
+              Main Navigation
+            </p>
+            <a
+              href="#"
+            >
+              Home
+            </a>
+            <a
+              href="#"
+            >
+              Applications
+            </a>
+            <a
+              href="#"
+            >
+              Reports
+            </a>
+            <a
+              href="#"
+            >
+              Resource Library
+            </a>
+            <a
+              href="#"
+            >
+              Forms
+            </a>
+            <a
+              href="#"
+            >
+              News
+            </a>
+            <a
+              href="#"
+            >
+              Directories
+            </a>
+            <p>
+              Secondary Navigation
+            </p>
+            <a
+              href="#"
+            >
+              Inventory
+            </a>
+            <a
+              href="#"
+            >
+              Trade History
+            </a>
+            <a
+              href="#"
+            >
+              Vehicle Estimator
+            </a>
+            <a
+              href="#"
+            >
+              Locator History
+            </a>
+          </div>
+        </h4>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div
+    className="contentMargin"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="SearchSection pt-align-left"
+      >
+        <h5>
+          Search Vehicle Details:
+        </h5>
+        <div
+          onClick={[Function]}
+        >
+          <Select.js
+            autoBlur={true}
+            disabled={false}
+            multi={true}
+            onChange={[Function]}
+            onMouseDown={false}
+            options={Array []}
+            placeholder="Hint: Series, Model"
+            simpleValue={true}
+            value={Array []}
+          />
+        </div>
+        <br />
+        <br />
+        <h5>
+          Search Location:
+        </h5>
+        <div
+          className="SearchLocation LocationFiter "
+        >
+          <label
+            className="pt-control pt-checkbox pt-inline .modifier"
+          >
+            <input
+              onChange={[Function]}
+              type="checkbox"
+              value="Internal"
+            />
+            <span
+              className="pt-control-indicator"
+            />
+            Internal
+          </label>
+          <label
+            className="pt-control pt-checkbox pt-inline .modifier"
+          >
+            <input
+              onChange={[Function]}
+              type="checkbox"
+              value="External"
+            />
+            <span
+              className="pt-control-indicator"
+            />
+            External
+          </label>
+          <label
+            className="pt-control pt-checkbox pt-inline .modifier"
+          >
+            <input
+              onChange={[Function]}
+              type="checkbox"
+              value="District 1"
+            />
+            <span
+              className="pt-control-indicator"
+            />
+            District 1
+          </label>
+          <label
+            className="pt-control pt-checkbox pt-inline .modifier"
+          >
+            <input
+              onChange={[Function]}
+              type="checkbox"
+              value="Broward County"
+            />
+            <span
+              className="pt-control-indicator"
+            />
+            Broward County
+          </label>
+          <label
+            className="pt-control pt-checkbox pt-inline .modifier"
+          >
+            <input
+              onChange={[Function]}
+              type="checkbox"
+              value="District 3"
+            />
+            <span
+              className="pt-control-indicator"
+            />
+            District 3
+          </label>
+        </div>
+        <br />
+        <br />
+        <button
+          className="pt-button pt-intent-primary"
+          onClick={[Function]}
+          type="submit"
+        >
+          Search
+        </button>
+        <br />
+        <br />
+        <br />
+        <div
+          className=".modifier hide"
+        >
+          <div
+            className="SearchedVehicle"
+          >
+            <div
+              className="resultFlex BgHead"
+            >
+              <div
+                className="resultFlexSection leftfs"
+              >
+                <p>
+                  <b>
+                    Vehicle ID
+                  </b>
+                </p>
+              </div>
+              <div
+                className="resultFlexSection rightfs"
+              >
+                <p>
+                  <b>
+                    Location
+                  </b>
+                </p>
+              </div>
+              <div
+                className="resultFlexSection"
+              >
+                <p>
+                  <b>
+                    Model Year
+                  </b>
+                </p>
+              </div>
+              <div
+                className="resultFlexSection rightfs"
+              >
+                <p>
+                  <b>
+                    Unit Identifier
+                  </b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="hide"
+        >
+          <p
+            className="noRecords"
+          >
+            No Record Found
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

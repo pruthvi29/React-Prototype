@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header Component 1`] = `
+<div>
+  <nav
+    className="pt-navbar"
+  >
+    <div
+      className="pt-navbar-group pt-align-left"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="set_logo.png"
+      />
+    </div>
+  </nav>
+</div>
+`;

@@ -1,0 +1,142 @@
+.SearchSection {
+  text-align: center;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  margin: 0% 15%;
+}
+.SearchSection h5 {
+	text-align: left;
+	font-weight: bold;
+}
+.SearchSection button {
+	width: 75px;
+	background: linear-gradient(to bottom, rgb(51, 133, 147), rgb(29, 107, 127)) left no-repeat, center no-repeat #006666 !important;
+    font-weight: bold;
+}
+.SearchLocation {
+	border: 1px solid #ccc;
+}
+.SearchLocation label {
+	margin-top: 15px;
+	width: 28%;
+}
+.LocationFiter{
+	text-align: left;
+	padding: 10px 0px 20px 20px;
+}
+.DataSection {
+	text-align: left !important;
+}
+.DataSection h4{
+	padding-left: 40px;
+}
+.SearchSection table {
+	width: 100% !important;
+	border: 1px solid #ccc;
+}
+.show{
+	display:block !important;
+}
+.hide{
+	display:none;
+}
+.noRecords{
+	text-align: center;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  table tr:nth-child(odd) {
+    background-color: #eee;
+}
+  table td {
+    display: block;
+    text-align: left !important;
+    border-bottom: 1px solid #ccc;
+    box-shadow: none !important;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+  }
+  table td:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  .Select-menu-outer {
+    width: 220px !important;
+  }
+  .resultFlex {
+    display: block !important;
+    padding-bottom: 20px;
+  }
+  .resultFlexSection {
+    margin-left: 0px !important;
+  }
+  div.SearchedVehicle > div:nth-of-type(even) {
+    background-color: #ffffff !important;
+  }
+}
+.Select-placeholder {
+  text-align: center !important;
+}
+.Select {
+  text-align: left !important;
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+  .Select-menu-outer {
+    width: 220px !important;
+  }
+}
+.resultFlex {
+  display: flex;
+}
+.resultFlexSection {
+  /*background-color: #E6F2F2;*/
+  width: 100%;
+  /*margin: 0px 10px;*/
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+}
+.resultFlex .leftfs{
+  margin-left: 0px;
+}
+.resultFlex .rightfs{
+  margin-right: 0px;
+}
+
+.BgHead {
+  background-color: #EEEEEE;
+}
+.HgNum {
+  color: #006666;
+}
+.SearchedVehicle{
+  color: #606060;
+}
+@media (min-width: 601px) {
+  .tagHide {display: none;}
+}
+@media (max-width: 600px) {
+  .BgHead {display: none !important;}
+}
